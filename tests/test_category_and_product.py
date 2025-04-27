@@ -14,10 +14,5 @@ def test_category_init(some_product, some_category):
     assert len(some_category.products) == 1
     assert some_category.products[0] == some_product
 
-
-def test_category_counter(some_category):
     assert Category.total_categories == 1
-
-
-def test_total_products(some_category):
     assert Category.total_products == 1
